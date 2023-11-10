@@ -28,3 +28,5 @@ sphinx:
 python:
    install:
       - requirements: requirements.txt
+script:
+    - "sphinx-build -qnN docs docs/_build/html"

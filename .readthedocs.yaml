@@ -8,7 +8,7 @@ build:
   jobs:
     post_build:
       - echo "Running post-build commands."
-      - bash sphinx-build -qnN docs docs/_build/html
+      - sphinx-build -qnN docs docs/_build/html
     # You can also specify other tool versions:
     # nodejs: "19"
     # rust: "1.64"
